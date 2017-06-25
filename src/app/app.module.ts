@@ -15,6 +15,8 @@ import { RepoDetailComponent } from './github/repo-detail/repo-detail.component'
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { ContactComponent } from './contact/contact.component';
 import { HttptestComponent } from './http_test/httptest.component';
+import { AreaChartComponent } from './area-chart/area-chart.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { HttptestComponent } from './http_test/httptest.component';
     RepoDetailComponent,
     HomeComponent,
     ContactComponent,
-    HttptestComponent
+    HttptestComponent,
+    AreaChartComponent,
   ],
   imports: [
     BrowserModule,
